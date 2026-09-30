@@ -1,0 +1,26 @@
+{
+  "runtime": "canvas-v1",
+  "name": "Until",
+  "description": "Compter le temps restant avant une date, avec état explicite pour une date invalide ou atteinte.",
+  "version": "0.1.0",
+  "entry": "dist/assets/addon.js",
+  "thumbnail": "assets/thumbnail.png",
+  "deviceSettingsVersion": "1",
+  "ui": {
+    "pointerEvents": "none"
+  },
+  "settings": [
+    {
+      "id": "title",
+      "type": "string",
+      "label": "Événement",
+      "default": "Nouvelle année"
+    },
+    {
+      "id": "target",
+      "type": "string",
+      "label": "Date ISO avec fuseau",
+      "default": "2027-01-01T00:00:00+01:00"
+    }
+  ]
+}
